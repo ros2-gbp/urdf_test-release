@@ -1,3 +1,26 @@
+## urdf_test (rolling) - 2.1.1-1
+
+The packages in the `urdf_test` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --track rolling --rosdistro rolling urdf_test` on `Fri, 06 Mar 2026 12:45:10 -0000`
+
+The `urdf_test` package was released.
+
+Version of package(s) in repository `urdf_test`:
+
+- upstream repository: https://github.com/pal-robotics/urdf_test.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `2.1.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.13.0`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## urdf_test (jazzy) - 2.1.1-1
 
 The packages in the `urdf_test` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release --track jazzy --rosdistro jazzy urdf_test` on `Fri, 06 Mar 2026 12:42:08 -0000`
