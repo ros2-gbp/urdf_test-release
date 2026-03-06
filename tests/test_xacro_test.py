@@ -15,14 +15,14 @@
 import subprocess
 import tempfile
 
-import pytest
-import xacro
 
 from launch.actions import DeclareLaunchArgument
+import pytest
 from urdf_test.xacro_test import (check_urdf,
                                   check_xacro_file,
                                   define_xacro_test,
                                   gen_choices_product)
+import xacro
 
 
 @pytest.mark.parametrize(
@@ -96,10 +96,10 @@ def test_define_xacro_test():
     assert mark.args[0] == 'params'
     params = {p.id: p.values for p in mark.args[1]}
     assert params == {
-        'a=8, b=1': ({'a': 8, 'b': 1},),
-        'a=8, b=2': ({'a': 8, 'b': 2},),
-        'a=9, b=1': ({'a': 9, 'b': 1},),
-        'a=9, b=2': ({'a': 9, 'b': 2},)
+        'a:=8 b:=1': ({'a': 8, 'b': 1},),
+        'a:=8 b:=2': ({'a': 8, 'b': 2},),
+        'a:=9 b:=1': ({'a': 9, 'b': 1},),
+        'a:=9 b:=2': ({'a': 9, 'b': 2},)
     }
 
 
