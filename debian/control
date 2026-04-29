@@ -1,0 +1,12 @@
+Source: ros-lyrical-urdf-test
+Section: misc
+Priority: optional
+Maintainer: Jordan Palacios <jordan.palacios@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake-auto, ros-lyrical-ament-cmake-pytest <!nocheck>, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-launch <!nocheck>, ros-lyrical-rclpy, ros-lyrical-xacro <!nocheck>, ros-lyrical-ros-workspace
+Homepage: https://github.com/pal-robotics/urdf_test
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-urdf-test
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, liburdfdom-tools, ros-lyrical-rclpy, ros-lyrical-ros-workspace
+Description: The urdf_test package
