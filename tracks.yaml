@@ -104,4 +104,5 @@ tracks:
     ros_distro: rolling
     vcs_type: git
     vcs_uri: https://github.com/pal-robotics/urdf_test.git
-    version: :{auto}
+    version: 2.1.1
+    version_saved: :{auto}
