@@ -1,0 +1,111 @@
+ros-rolling-urdf-test (2.1.2-1resolute) resolute; urgency=high
+
+  * Remove unused setup.py
+  * Bump cmake version to 3.10
+  * Contributors: Noel Jimenez
+
+ -- "Jordan Palacios" <jordan.palacios@pal-robotics.com>  Wed, 10 Jun 2026 22:00:00 -0000
+
+ros-rolling-urdf-test (2.1.1-1resolute) resolute; urgency=high
+
+  * Fix ament_flake8 quoting and import-order
+  * Format xacro_test IDs as xacro argument lists
+  * Contributors: Mathias Lüdtke, Noel Jimenez
+
+ -- "Jordan Palacios" <jordan.palacios@pal-robotics.com>  Thu, 05 Mar 2026 23:00:00 -0000
+
+ros-rolling-urdf-test (2.1.0-1resolute) resolute; urgency=high
+
+  * Implement xacro test functions
+  * Contributors: Mathias Lüdtke
+
+ -- "Jordan Palacios" <jordan.palacios@pal-robotics.com>  Tue, 15 Oct 2024 22:00:00 -0000
+
+ros-rolling-urdf-test (2.0.3-1resolute) resolute; urgency=high
+
+  * Fix deprecated QOS warning
+  * Contributors: David ter Kuile
+
+ -- "Jordan Palacios" <jordan.palacios@pal-robotics.com>  Tue, 19 Mar 2024 23:00:00 -0000
+
+ros-rolling-urdf-test (2.0.2-1resolute) resolute; urgency=high
+
+  * Add website tag
+  * Remove pal flags dependency
+  * Contributors: Noel Jimenez
+
+ -- "Jordan Palacios" <jordan.palacios@pal-robotics.com>  Mon, 13 Nov 2023 23:00:00 -0000
+
+ros-rolling-urdf-test (2.0.1-1resolute) resolute; urgency=high
+
+  * Merge branch 'cleanup' into 'humble-devel'
+    Cleanup
+    See merge request qa/urdf_test!7
+  * clean ros1 files
+  * Merge branch 'update_copyright' into 'humble-devel'
+    Update copyright
+    See merge request qa/urdf_test!6
+  * update copyright
+  * Merge branch 'update_maintainers' into 'humble-devel'
+    update maintainers
+    See merge request qa/urdf_test!5
+  * update maintainers
+  * Merge branch 'tests' into 'humble-devel'
+    fix linter errors
+    See merge request qa/urdf_test!4
+  * linters
+  * Contributors: Jordan Palacios, Noel Jimenez
+
+ -- "Jordan Palacios" <jordan.palacios@pal-robotics.com>  Wed, 19 Oct 2022 22:00:00 -0000
+
+ros-rolling-urdf-test (2.0.0-1resolute) resolute; urgency=high
+
+  * ROS2 migration
+  * Contributors: Victor Lopez
+
+ -- "Jordan Palacios" <jordan.palacios@pal-robotics.com>  Tue, 15 Jun 2021 22:00:00 -0000
+
+ros-rolling-urdf-test (1.0.4-1resolute) resolute; urgency=high
+
+  * Merge branch 'add-test-suffix' into 'master'
+    Add test suffix
+    See merge request qa/urdf_test!2
+  * Add test suffix
+  * Merge branch 'fix-package-dependency' into 'master'
+    Fix package dependencies
+    See merge request !1
+  * Fix package dependencies
+  * Contributors: Victor Lopez, davidfernandez
+
+ -- "Jordan Palacios" <jordan.palacios@pal-robotics.com>  Tue, 11 Dec 2018 23:00:00 -0000
+
+ros-rolling-urdf-test (1.0.3-1resolute) resolute; urgency=high
+
+  * Rewrite in python for simplicity
+  * Fix dependencies
+  * Contributors: davidfernandez
+
+ -- "Jordan Palacios" <jordan.palacios@pal-robotics.com>  Mon, 17 Jul 2017 22:00:00 -0000
+
+ros-rolling-urdf-test (1.0.2-1resolute) resolute; urgency=high
+
+  * Fix build rule to match install rule
+  * Contributors: davidfernandez
+
+ -- "Jordan Palacios" <jordan.palacios@pal-robotics.com>  Sun, 16 Jul 2017 22:00:00 -0000
+
+ros-rolling-urdf-test (1.0.1-1resolute) resolute; urgency=high
+
+  * Fix installation rules
+  * Contributors: davidfernandez
+
+ -- "Jordan Palacios" <jordan.palacios@pal-robotics.com>  Sun, 16 Jul 2017 22:00:00 -0000
+
+ros-rolling-urdf-test (1.0.0-1resolute) resolute; urgency=high
+
+  * Initial import
+  * Contributors: davidfernandez
+
+ -- "Jordan Palacios" <jordan.palacios@pal-robotics.com>  Sun, 16 Jul 2017 22:00:00 -0000
+
+
