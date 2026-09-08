@@ -1,0 +1,12 @@
+Source: ros-rolling-urdf-test
+Section: misc
+Priority: optional
+Maintainer: "Jordan Palacios" <jordan.palacios@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake-auto, ros-rolling-ament-cmake-pytest <!nocheck>, ros-rolling-ament-lint-auto <!nocheck>, ros-rolling-ament-lint-common <!nocheck>, ros-rolling-launch <!nocheck>, ros-rolling-rclpy, ros-rolling-xacro <!nocheck>, ros-rolling-ros-workspace
+Homepage: https://github.com/pal-robotics/urdf_test
+Standards-Version: 3.9.2
+
+Package: ros-rolling-urdf-test
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-rclpy, ros-rolling-urdfdom, ros-rolling-ros-workspace
+Description: The urdf_test package
