@@ -1,0 +1,12 @@
+Source: ros-kilted-urdf-test
+Section: misc
+Priority: optional
+Maintainer: "Jordan Palacios" <jordan.palacios@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake-auto, ros-kilted-ament-cmake-pytest <!nocheck>, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-ament-lint-common <!nocheck>, ros-kilted-launch <!nocheck>, ros-kilted-rclpy, ros-kilted-xacro <!nocheck>, ros-kilted-ros-workspace
+Homepage: https://github.com/pal-robotics/urdf_test
+Standards-Version: 3.9.2
+
+Package: ros-kilted-urdf-test
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-rclpy, ros-kilted-urdfdom, ros-kilted-ros-workspace
+Description: The urdf_test package
