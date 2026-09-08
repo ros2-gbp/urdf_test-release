@@ -2,6 +2,17 @@
 Changelog for package urdf_test
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.1.3 (2026-09-08)
+------------------
+* Use urdfdom as a exec dependency
+* Contributors: Sai Kishor Kothakota
+
+2.1.2 (2026-06-11)
+------------------
+* Remove unused setup.py
+* Bump cmake version to 3.10
+* Contributors: Noel Jimenez
+
 2.1.1 (2026-03-06)
 ------------------
 * Fix ament_flake8 quoting and import-order
